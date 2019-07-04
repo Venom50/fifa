@@ -1,5 +1,4 @@
 import Models.Player
-import java.lang.Exception
 
 class Mapper {
 

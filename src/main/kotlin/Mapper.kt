@@ -2,7 +2,7 @@ import Models.Player
 
 class Mapper {
 
-    fun mapLines(line: String): Player {
+    fun map(line: String): Player {
 
         var tab = line.split(";")
             return Player(

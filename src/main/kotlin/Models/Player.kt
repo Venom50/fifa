@@ -1,7 +1,5 @@
 package Models
 
-import java.util.*
-
 data class Player(
     val id: Int,
     val name: String,
@@ -24,7 +22,7 @@ data class Player(
     val realFace: Boolean,
     val position: String,
     val jerseyNumber: Int,
-    val joined: Date,
+    val joined: String,
     val loanedFrom: String,
     val contractValidUntil: String,
     val Height: String,

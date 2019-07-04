@@ -1,6 +1,6 @@
 import java.io.File
 
-class CSVReader(var mapper: Mapper) {
+class CSVReader() {
 
     var playerArray = ArrayList<String>()
 
@@ -12,7 +12,7 @@ class CSVReader(var mapper: Mapper) {
         return playerArray
     }
 
-    fun deleteFirstLine(playerArray: ArrayList<String>): ArrayList<String> {
+    private fun deleteFirstLine(playerArray: ArrayList<String>): ArrayList<String> {
         playerArray.removeAt(0)
         return playerArray
     }

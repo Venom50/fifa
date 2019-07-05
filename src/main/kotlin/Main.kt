@@ -1,4 +1,3 @@
-import Models.Player
 
 fun main(){
     val csvReader = CSVReader()
@@ -6,4 +5,7 @@ fun main(){
     var textArray = csvReader.readFileLineByLineUsingForEachLine("C:\\Users\\maciejsa\\IdeaProjects\\fifa\\fifa.csv")
 
     var playerList = textArray.map { mapper.map(it) }
+    for(i in 0..3) {
+        println(playerList[i])
+    }
 }
